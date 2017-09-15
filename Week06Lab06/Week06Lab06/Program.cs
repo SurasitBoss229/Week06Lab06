@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Week06Lab06
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        sayHello("Hello World.");
+        Console.ReadLine();
+    }
+
+    static void sayHello(string str)
+    {
+        Console.WriteLine(str);
     }
 }
