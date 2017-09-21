@@ -11,7 +11,7 @@ namespace Week06Lab06
         static void trapezoid(double A, double B, double C)
         {
             double D;
-            D = ((1 / 2)*(A + B)*C);
+            D = (0.5 * (A + B) * C);
             Console.Write("Area of the trapezoid is : {0}" , D);
         }
 
