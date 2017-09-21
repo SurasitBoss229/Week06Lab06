@@ -10,6 +10,10 @@ namespace Week06Lab06
     {
         static void Main(string[] args)
         {
+
+            int a = 2;
+            string myString = a.ToString();
+            Console.WriteLine(myString);
         }
     }
 }
