@@ -12,7 +12,6 @@ namespace Week06Lab06
         {
             byte a = 3;
             byte b = 5;
-
             Console.WriteLine(a | b);
             Console.WriteLine(a & b);
             Console.WriteLine(a ^ b);
